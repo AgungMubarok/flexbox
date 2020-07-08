@@ -6,10 +6,14 @@
 a {
     text-decoration: none;
 }
+.container-fluid {
+    padding: 0!important;
+    
+}
 
 /* header */
 
-.header {
+/* .header {
     position: relative;
     width: 100%;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
@@ -64,11 +68,11 @@ a {
     clear: both;
     max-height: 0;
     transition: max-height .2s ease-out;
-}
+} */
 
 /* menu icon */
    
-.header .menu-icon {
+/* .header .menu-icon {
     cursor: pointer;
     display: inline-block;
     float: right;
@@ -103,11 +107,11 @@ a {
    
 .header .menu-icon .navicon:after {
     top: -5px;
-}
+} */
    
 /* menu btn */
    
-.header .menu-btn {
+/* .header .menu-btn {
     display: none;
 }
    
@@ -135,6 +139,17 @@ a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+} */
+
+/* boootstrap header*/
+.navbar-brand {
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+.com {
+	color: goldenrod;
+}
+.navbar-light {
+    background-color: #e3f2fd!important;
 }
 
 /* section 1 */
